@@ -1,0 +1,22 @@
+.logoDiv {
+  height: auto;
+  width: auto;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background-size: auto;
+}
+
+@media screen and (max-width: 550px) {
+  .logoDiv {
+    width: 90px;
+    height: 90px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+}
